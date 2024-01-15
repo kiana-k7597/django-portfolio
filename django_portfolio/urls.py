@@ -20,5 +20,5 @@ import jobs.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('kiana', jobs.views.kiana, name ='kiana')
+    path('', jobs.views.home, name ='home')
 ]
